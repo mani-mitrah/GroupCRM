@@ -1,0 +1,450 @@
+{
+	"info": {
+		"_postman_id": "a4a85848-74da-4975-9f27-6ebfd117ce28",
+		"name": "ONTIME CRM",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "CREATE CATEGORY API",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "category_id",
+							"value": "99",
+							"type": "text"
+						},
+						{
+							"key": "category_name",
+							"value": "test",
+							"type": "text"
+						},
+						{
+							"key": "category_code",
+							"value": "test",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://crm.ontimegroup.com/api/pos/v1/integration/create_category",
+					"protocol": "https",
+					"host": [
+						"crm",
+						"ontimegroup",
+						"com"
+					],
+					"path": [
+						"api",
+						"pos",
+						"v1",
+						"integration",
+						"create_category"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UPDATE CATEGORY API",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "category_id",
+							"value": "16",
+							"type": "text"
+						},
+						{
+							"key": "category_name",
+							"value": "tests",
+							"type": "text"
+						},
+						{
+							"key": "category_code",
+							"value": "tests",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "https://crm.ontimegroup.com/api/pos/v1/integration/update_category",
+					"protocol": "https",
+					"host": [
+						"crm",
+						"ontimegroup",
+						"com"
+					],
+					"path": [
+						"api",
+						"pos",
+						"v1",
+						"integration",
+						"update_category"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CREATE LEAD - PACKAGE",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "branch_id",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "lead_type",
+							"value": "package",
+							"type": "text"
+						},
+						{
+							"key": "category_id",
+							"value": "13",
+							"type": "text"
+						},
+						{
+							"key": "service_id",
+							"value": "85",
+							"type": "text"
+						},
+						{
+							"key": "lead_name",
+							"value": "API Customer",
+							"type": "text"
+						},
+						{
+							"key": "lead_contact",
+							"value": "29387429834",
+							"type": "text"
+						},
+						{
+							"key": "package_id",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "attachment_name",
+							"value": "Pdf file",
+							"type": "text"
+						},
+						{
+							"key": "files",
+							"type": "file",
+							"src": "/Users/ganeshananthan/Desktop/Amazon.in - Order 402-4844364-0785960.pdf"
+						},
+						{
+							"key": "lead_remarks",
+							"value": "testing api",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://crm.ontimegroup.com/api/v1/lead/create",
+					"protocol": "https",
+					"host": [
+						"crm",
+						"ontimegroup",
+						"com"
+					],
+					"path": [
+						"api",
+						"v1",
+						"lead",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CREATE SERVICE API",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "category_id",
+							"value": "99",
+							"type": "text"
+						},
+						{
+							"key": "service_id",
+							"value": "99",
+							"type": "text"
+						},
+						{
+							"key": "service_name",
+							"value": "Test Service",
+							"type": "text"
+						},
+						{
+							"key": "govt_fee",
+							"value": "0.00",
+							"type": "text"
+						},
+						{
+							"key": "typing_fee",
+							"value": "0.00",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://crm.ontimegroup.com/api/pos/v1/integration/create_service",
+					"protocol": "https",
+					"host": [
+						"crm",
+						"ontimegroup",
+						"com"
+					],
+					"path": [
+						"api",
+						"pos",
+						"v1",
+						"integration",
+						"create_service"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CREATE PACKAGE API",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "package_id",
+							"value": "99",
+							"type": "text"
+						},
+						{
+							"key": "package_name",
+							"value": "Test Package",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://crm.ontimegroup.com/api/pos/v1/integration/create_package",
+					"protocol": "https",
+					"host": [
+						"crm",
+						"ontimegroup",
+						"com"
+					],
+					"path": [
+						"api",
+						"pos",
+						"v1",
+						"integration",
+						"create_package"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UPDATE PACKAGE API",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "package_id",
+							"value": "99",
+							"type": "text"
+						},
+						{
+							"key": "package_name",
+							"value": "Test Packages",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://crm.ontimegroup.com/api/pos/v1/integration/update_package",
+					"protocol": "https",
+					"host": [
+						"crm",
+						"ontimegroup",
+						"com"
+					],
+					"path": [
+						"api",
+						"pos",
+						"v1",
+						"integration",
+						"update_package"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ADD SERVICE TO PACKAGE API",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "package_id",
+							"value": "99",
+							"type": "text"
+						},
+						{
+							"key": "service_id",
+							"value": "99",
+							"type": "text"
+						},
+						{
+							"key": "govt_fee",
+							"value": "0.00",
+							"type": "text"
+						},
+						{
+							"key": "typing_fee",
+							"value": "0.00",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://crm.ontimegroup.com/api/pos/v1/integration/add_service_to_package",
+					"protocol": "https",
+					"host": [
+						"crm",
+						"ontimegroup",
+						"com"
+					],
+					"path": [
+						"api",
+						"pos",
+						"v1",
+						"integration",
+						"add_service_to_package"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "REMOVE SERVICE FROM PACKAGE API",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "package_id",
+							"value": "99",
+							"type": "text"
+						},
+						{
+							"key": "service_id",
+							"value": "99",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://crm.ontimegroup.com/api/pos/v1/integration/remove_service_from_package",
+					"protocol": "https",
+					"host": [
+						"crm",
+						"ontimegroup",
+						"com"
+					],
+					"path": [
+						"api",
+						"pos",
+						"v1",
+						"integration",
+						"remove_service_from_package"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UPDATE SERVICE API",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "category_id",
+							"value": "99",
+							"type": "text"
+						},
+						{
+							"key": "service_id",
+							"value": "99",
+							"type": "text"
+						},
+						{
+							"key": "service_name",
+							"value": "Test Services",
+							"type": "text"
+						},
+						{
+							"key": "govt_fee",
+							"value": "10.00",
+							"type": "text"
+						},
+						{
+							"key": "typing_fee",
+							"value": "10.00",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://crm.ontimegroup.com/api/pos/v1/integration/update_service",
+					"protocol": "https",
+					"host": [
+						"crm",
+						"ontimegroup",
+						"com"
+					],
+					"path": [
+						"api",
+						"pos",
+						"v1",
+						"integration",
+						"update_service"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
