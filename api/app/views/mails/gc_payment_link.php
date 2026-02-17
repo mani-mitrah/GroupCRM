@@ -1,0 +1,287 @@
+<!doctype html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>EMAIL</title>
+    <style>
+    @media only screen and (max-width: 620px) {
+      table[class=body] h1 {
+        font-size: 28px !important;
+        margin-bottom: 10px !important;
+      }
+      table[class=body] p,
+            table[class=body] ul,
+            table[class=body] ol,
+            table[class=body] td,
+            table[class=body] span,
+            table[class=body] a {
+        font-size: 16px !important;
+      }
+      table[class=body] .wrapper,
+            table[class=body] .article {
+        padding: 10px !important;
+      }
+      table[class=body] .content {
+        padding: 0 !important;
+      }
+      table[class=body] .container {
+        padding: 0 !important;
+        width: 100% !important;
+      }
+      table[class=body] .main {
+        border-left-width: 0 !important;
+        border-radius: 0 !important;
+        border-right-width: 0 !important;
+      }
+      table[class=body] .btn table {
+        width: 100% !important;
+      }
+      table[class=body] .btn a {
+        width: 100% !important;
+      }
+      table[class=body] .img-responsive {
+        height: auto !important;
+        max-width: 100% !important;
+        width: auto !important;
+      }
+    }
+
+    @media all {
+      .ExternalClass {
+        width: 100%;
+      }
+      .ExternalClass,
+            .ExternalClass p,
+            .ExternalClass span,
+            .ExternalClass font,
+            .ExternalClass td,
+            .ExternalClass div {
+        line-height: 100%;
+      }
+      .apple-link a {
+        color: inherit !important;
+        font-family: inherit !important;
+        font-size: inherit !important;
+        font-weight: inherit !important;
+        line-height: inherit !important;
+        text-decoration: none !important;
+      }
+      #MessageViewBody a {
+        color: inherit;
+        text-decoration: none;
+        font-size: inherit;
+        font-family: inherit;
+        font-weight: inherit;
+        line-height: inherit;
+      }
+      .btn-primary table td:hover {
+        background-color: #34495e !important;
+      }
+      .btn-primary a:hover {
+        background-color: #34495e !important;
+        border-color: #34495e !important;
+      }
+    }
+     .container {
+   
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 0px;
+            font-family: Arial, sans-serif;
+              
+        }
+        .location {
+        height: 100%;
+            background-color: #f0e8db;
+            text-align: left;
+            float: left;
+            width: 50%;
+        }
+        .timings {
+            height: 100%;
+            background-color: #f0e8db;
+            text-align: right;
+            float: right;
+            width: 50%;
+        }
+        .whatsapp {
+            height: 100%;
+            background-color: #f0e8db;
+            text-align: left;
+            float: left;
+            width: 50%;
+            display: flex; 
+            flex-direction: row;
+        }
+        .globelink {
+            height: 100%;
+            background-color: #f0e8db;
+            text-align: right;
+            float: right;
+            width: 50%;
+            display: flex; 
+            flex-direction: row; 
+            justify-content: end;
+        }
+        @media only screen and (max-width: 600px) {
+            .location, .timings {
+                width: 100%;
+                float: none;
+                text-align: left;
+            }
+            .whatsapp, .globelink {
+                width: 100%;
+                float: none;
+                text-align: left;
+            }
+        }
+        .footer {
+            height: 100%;
+            background-color: #f0e8db;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .footer1 {
+            height: 100%;
+            background-color: #f0e8db;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .container1{
+		display: flex;
+		flex-direction: row;
+
+        	height: 100%;
+            background-color: #f0e8db;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .container2{
+		display: flex;
+		flex-direction: row;
+
+        	height: 100%;
+            background-color: #f0e8db;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .social-footer{
+        	display: flex; 
+        	flex-direction: row; 
+        	justify-content: center; 
+        	gap:20px;
+        }
+    </style>
+  </head>
+  <body class="" style="background-color: #f6f6f6; font-family: sans-serif; -webkit-font-smoothing: antialiased; font-size: 14px; line-height: 1.4; margin: 0; padding: 0; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;">
+    <table border="0" cellpadding="0" cellspacing="0" class="body" style="border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%; background-color: #f6f6f6;">
+      <tr>
+        <td style="font-family: sans-serif; font-size: 14px; vertical-align: top;">&nbsp;</td>
+        <td class="container" style="font-family: sans-serif; font-size: 14px; vertical-align: top; display: block; Margin: 0 auto; max-width: 580px; padding: 10px; width: 580px;">
+          <div class="content" style="box-sizing: border-box; display: block; Margin: 0 auto; max-width: 580px; padding: 10px;">
+
+            <!-- START CENTERED WHITE CONTAINER -->
+            <!--  -->
+           
+
+
+            <table class="main" style="border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%; background: #ffffff; border-radius: 3px;">
+
+              <!-- START MAIN CONTENT AREA -->
+              <tr>
+              	
+                <td class="wrapper" style="font-family: sans-serif; font-size: 14px; vertical-align: top; box-sizing: border-box; padding: 20px;">
+                  <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;">
+                    <tr>
+                    <div style="">
+                        <span><img src="https://crm.ontimegroup.com/assets/images/golden_cube_logo.png" width="150" height="150"/></span>
+                        <span style="margin-left:200px; margin-bottom:50px; vertical-align: top;">
+                          <img src="https://crm.ontimegroup.com/assets/images/land_department.png" style=" margin-top: 15px" width="150" height="100"/></span>
+                    </div>
+                      <td style="font-family: sans-serif; font-size: 14px; vertical-align: top;">
+                        <br><br>
+                        <p style="font-family: sans-serif; font-size: 14px; font-weight: normal; margin: 0; Margin-bottom: 15px;">
+                        Dear <?php echo $message['customer_name']; ?>,
+                        </p>
+                        <p style='font-family: sans-serif; font-size: 14px; font-weight: normal; margin-top: 10px;margin-bottom: 20px;'>
+                          Greetings from <strong>Golden Cube</strong>,
+                        </p>
+                        <p style='font-family: sans-serif; font-size: 14px; font-weight: normal; margin-top: 10px;margin-bottom: 20px;'>
+                          As the next step in your Golden Visa application, please find below the secure payment link to proceed with the required service and government fees.
+                        </p>
+                        <p style='font-family: sans-serif; font-size: 14px; font-weight: normal; text-align:center; margin-top: 10px;margin-bottom: 20px;'>
+                          <a href="<?php echo $message['payment_url']; ?>" target="_blank"> <button style='font-weight: bold;background: #b4883d;color: white;border: 0;padding: 13px 30px;border-radius: 1px;box-shadow: 2px 2px 9px -2px black;'>PAY NOW</button> </a>
+                          <br><br/>
+                        </p>
+                        <p style='font-family: sans-serif; font-size: 14px; font-weight: normal; margin-top: 10px;margin-bottom: 20px;'>
+                          Before proceeding with payment, kindly review the attached <strong>Terms & Declarations</strong> document. By completing the payment, you confirm that you understand and accept all terms stated.
+                        </p>
+                        <p style='font-family: sans-serif; font-size: 14px; font-weight: normal; margin-top: 10px;margin-bottom: 20px;'>
+                          Once payment is received, our team will proceed with the next steps and keep you updated.
+                        </p>
+                       
+                        <p style='font-family: sans-serif; font-size: 14px; font-weight: normal; margin-top: 10px;margin-bottom: 20px;'>
+                          Should you have any questions, feel free to reach out.</p>
+
+                        <p style='font-family: sans-serif; font-size: 14px; font-weight: normal; margin-top: 10px;margin-bottom: 20px;'>
+                          <b>Best regards,</b></p>
+
+                        <br><br>
+                        <p style="font-family: sans-serif; font-size: 14px; font-weight: normal; Margin-bottom: 15px; text-align: end;">
+                          تحية طيبة من جولدن كيوب،
+                        </p>
+                        <p style="font-family: sans-serif; font-size: 14px; font-weight: normal; Margin-bottom: 15px; text-align: end;">
+                         يرجى الاطلاع على رابط الدفع أدناه لاستكمال رسوم الخدمات والجهات الحكومية الخاصة بطلب التأشيرة الذهبية:
+                        </p>
+                        <p style='font-family: sans-serif; font-size: 14px; font-weight: normal; text-align:center; margin-top: 10px;   margin-bottom: 20px;'>
+                            <a href="<?php echo $message['payment_url']; ?>" target="_blank"> <button style='font-weight: bold;background: #b4883d;color: white;border: 0;padding: 13px 30px;border-radius: 1px;box-shadow: 2px 2px 9px -2px black;'>PAY NOW</button> </a>
+                            <br><br/>
+                        </p>
+
+                        <p style="font-family: sans-serif; font-size: 14px; font-weight: normal; Margin-bottom: 15px; text-align: end;">
+                        قبل إتمام الدفع، يرجى قراءة الشروط والإقرارات المرفقة بعناية. بإتمام عملية الدفع، فإنكم تقرّون بموافقتكم الكاملة
+                        </p>
+                        <p style="font-family: sans-serif; font-size: 14px; font-weight: normal; Margin-bottom: 15px; text-align: end;">
+                          على جميع الشروط المذكورة.
+                        </p>
+                        <br>
+                        <p style="font-family: sans-serif; font-size: 14px; font-weight: normal; Margin-bottom: 15px; text-align: end;">
+                          بعد استلام الدفع، سنباشر الخطوات التالية ونبقيكم على اطلاع دائم.
+                        </p>
+                        <p style="font-family: sans-serif; font-size: 14px; font-weight: normal; Margin-bottom: 15px; text-align: end;">
+                          لأي استفسار، لا تترددوا بالتواصل معنا.
+                        </p>
+                        <p style="font-family: sans-serif; font-size: 14px; font-weight: normal; Margin-bottom: 15px; text-align: end;">
+                          مع أطيب التحيات،
+                        </p>
+                        <br><br>
+                        <p style='font-family: sans-serif; font-size: 14px; font-weight: normal; margin-top: 10px;'>
+                          <b>Golden Cube Team,</b></p>
+                        <p style='font-family: sans-serif; font-size: 14px; font-weight: normal; margin-top: 10px;'>
+                          Thank you for choosing Golden Cube — where service meets excellence.</p>
+                        <p style='font-family: sans-serif; font-size: 14px; font-weight: normal; margin-top: 10px;'>
+                          We look forward to welcoming you with the care, attention, and quality you deserve.</p>
+                        <p style='font-family: sans-serif; font-size: 14px; font-weight: normal; margin-top: 10px;'>
+                          Tel: <strong>04 404 0440</strong></p>
+                        <p style='font-family: sans-serif; font-size: 14px; font-weight: normal; margin-top: 10px;'>
+                          Email: <strong>team@goldencube.ae</strong></p>
+                        <p style='font-family: sans-serif; font-size: 14px; font-weight: normal; margin-top: 10px;'>
+                          WhatsApp: <strong>052 640 9729</strong></p>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            <!-- END MAIN CONTENT AREA -->
+            </table>
+            <!-- <center><img src="https://crm.ontimegroup.com/dev/assets/images/goldenvisa_footer.jpg" /></center> -->
+          <!-- END CENTERED WHITE CONTAINER -->
+          </div>
+        </td>
+        <td style="font-family: sans-serif; font-size: 14px; vertical-align: top;">&nbsp;</td>
+      </tr>
+    </table>
+  </body>
+</html>
