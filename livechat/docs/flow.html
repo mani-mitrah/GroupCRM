@@ -1,0 +1,33 @@
+1. Would you like to talk to our representative?
+Yes
+No
+
+2. if user says yes call the pause api - own api
+	
+	2.1 create new custom action for pause the conv
+	2.2 webhook - we will entry in agent conversation - temp table
+
+3. Conversation is paused 
+
+
+4. A notification has to appear in agent dashboard to accept
+	4.1 Long polling for the temp table.
+
+5. If any agent accepts that, notification from other agent dashboard should be disappeared
+	5.2 change status of the entry from temp table and put that agent_conversation table.
+	5.3 automatically long polling will disable the notification for others.
+
+6. In a chat window agent will type the message
+	6.1 call the send message api
+
+
+7. User replies.
+	7.1. check with long polling for the user message
+
+8. Agent unpause the conversation
+	8.1 unpause the conversation
+
+	--- end  flow --
+
+9. Chatbot will take over the conversation
+	

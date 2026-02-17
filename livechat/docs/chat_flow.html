@@ -1,0 +1,32 @@
+1. There will a listener always returning a new conversation or updated conversation.
+
+2. if paused==true and the thread_id is not in agent conversations consider it as a new customer request.
+
+	3. show that request in waiting customers
+
+	4. when an agent clicks on start, create record in agent conversation.
+
+	5. remove from all the agent notifications
+
+3. if paused==false and there is a thread_id in agent conversations. then consider it as a completed conversation. 
+	3.1 update the agent conversation table that this chat has ended.
+
+4. if paused==false and there is no thread_id in agent conversations.
+
+
+if(threadid is in agent conversation)
+{
+	//agent is already handling it
+	if(paused==true)
+	{
+		if(check there is a entry in ongoing conversation)
+		{
+
+		}
+		else
+		{
+			add this in ongoing conversation
+		}
+
+	}
+}

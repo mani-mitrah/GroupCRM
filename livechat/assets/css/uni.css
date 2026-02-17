@@ -1,0 +1,48 @@
+.message.agent .message-content {
+    background-color: #e0dff1 !important;
+    color: #000;
+    margin-right: 1.25rem;
+    margin-left: 0;
+}
+
+.message.agent {
+    text-align: right;
+}
+
+.message.agent .message-options {
+    flex-direction: row-reverse;
+}
+.contacts-list .contacts-item .contacts-link
+{
+	background: #fff;
+}
+
+.self h6
+{
+	color: #fff !important;
+}
+
+.avatar
+{
+	padding: 12px 13px;
+}
+
+.avatar_history
+{
+	background: #665bf6;
+    color: #fff;
+}
+
+.avatar_ongoing
+{
+	background: #44a675;
+    color: #fff;
+}
+
+.avatar_waiting
+{
+	background: #ffb74d;
+    color: #fff;
+    font-size: 10px !important;
+    padding: 16px 12px !important;	
+}
